@@ -101,6 +101,7 @@ while pet_rock_sim:
     if happiness > 10:
         happiness = 10
     elif happiness < 1:
+        happiness = 0
         print(f"Your rock, {name}, is extremely unhappy, do something to cheer them up or they will continue to take damage")
         health -= 2
     
